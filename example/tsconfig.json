@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-radial-chart": ["../src/index"],
+      "expo-radial-chart/*": ["../src/*"]
+    }
+  }
+}
